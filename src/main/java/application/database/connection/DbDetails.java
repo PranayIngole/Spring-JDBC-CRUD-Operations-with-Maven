@@ -14,7 +14,7 @@ public class DbDetails {
 			DriverManagerDataSource dataSource = new DriverManagerDataSource();
 			dataSource.setUrl("jdbc:mysql://localhost:3306/spring");
 			dataSource.setUsername("root");
-			dataSource.setPassword("Pranay8#7#2&1");
+			dataSource.setPassword("Mysql131972#");
 			return new JdbcTemplate(dataSource);
 		}
 		
